@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExploreEase</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/images/logo.icon">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar" style="display: flex; align-items: center; justify-content: space-between; padding: 10px; background-color: #333;">
+  <!-- Logo -->
+  <div style="flex-shrink: 0;">
+    <a href="#home">
+      <img src="images/logo.icon" alt="ExploreEase Logo" style="height: 90px;">
+    </a>
+  </div>
+
+  <!-- Navigation Links -->
+  <ul style="display: flex; list-style: none; margin: 0 auto; padding: 0; gap: 20px; position: absolute; left: 50%; transform: translateX(-50%);">
+    <li><a href="#home" style="text-decoration: none; color: white;">Home</a></li>
+    <li><a href="#about" style="text-decoration: none; color: white;">About</a></li>
+    <li><a href="#destinations" style="text-decoration: none; color: white;">Destinations</a></li>
+    <li><a href="#reviews" style="text-decoration: none; color: white;">Reviews</a></li>
+    <li><a href="#contact" target="_blank" style="text-decoration: none; color: white;">Contact</a></li>
+  </ul>
+
+  <!-- Login Button -->
+  <a href="login.html" class="login-btn" style="margin-left: auto; text-decoration: none; color: white; background-color: #555; padding: 10px 20px; border-radius: 5px;">Login</a>
+</nav>
+
+<!-- Header Section -->
+<header id="home" class="hero">
+  <div style="color:white ;">
+    <h1 id="main-title" style="font-size: 80px; font-family: Broadway;">ADVENTURES TO <br>REMEMBER</h1>
+    <br><br>
+  </div>
+</header>
+
+<h2 style="font-family:Georgia, 'Times New Roman', Times, serif, Times, serif; font-size: xxx-large; text-align: center;">
+  About Me
+</h2>
+<div style="display: flex; align-items: flex-start; justify-content: center; gap: 20px; max-width: 1200px; margin: 0 auto; text-align: left; flex-wrap: nowrap;">
+  <!-- Image -->
+  <img 
+    src="images/about.jpg" 
+    alt="Profile Picture" 
+    class="profile-pic" 
+    style="height: 400px; width: auto; border-radius: 8px; flex-shrink: 0;"
+  >
+  <!-- Text -->
+  <div style="flex: 1; max-width: 600px;">
+    <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; line-height: 1.5; font-size: medium; margin: 0;">
+      This is an online platform where individuals share their travel experiences, stories, and tips with others. It's a type of blog that focuses specifically on travel-related content.<br><br>
+
+      <strong>We typically feature:</strong>
+      <ul>
+        <li>Travel stories: Personal anecdotes and experiences from the blogger's trips.</li>
+        <li>Destination guides: Information on specific destinations, including attractions, activities, and practical tips.</li>
+        <li>Photos and videos: Visual content showcasing the blogger's travels.</li>
+      </ul>
+
+      Overall, we provide a valuable resource for travelers, offering inspiration, information, and insights to help them plan and enjoy their trips.
+    </p>
+  </div>
+</div>
+
+<br>
+<!-- Destinations Section -->
+<section id="destinations" class="section" style="background-image: url(images/bg6.jpg);">
+  <h2 style="font-family: broadway; font-size: xx-large;">Top Destinations</h2>
+  <div class="destination-cards">
+    <!-- Destination 1 -->
+    <div class="card">
+      <a href="beach.html">
+      <img src="images/destination1.jpg" alt="Beach Paradise">
+      <h3>Beach Paradise</h3>
+      <p>A serene escape to turquoise waters and white sandy beaches.</p></a>
+    </div>
+    <!-- Destination 2 -->
+    <div class="card"><a href="mountain.html">
+      <img src="images/destination2.jpg" alt="Mountain Escape">
+      <h3>Mountain Escape</h3>
+      <p>Breathtaking views of lush valleys and snow-capped peaks.</p></a>
+    </div>
+    <!-- Destination 3 -->
+    <div class="card"><a href="urban.html">
+      <img src="images/destination3.jpeg" alt="Urban Adventures">
+      <h3>Urban Adventures</h3>
+      <p>Explore the vibrant life of cities full of culture and history.</p></a>
+    </div>
+    <!-- Destination 4 -->
+    <div class="card"><a href="desert.html">
+      <img src="images/destination4.jpg" alt="Desert Land">
+      <h3>Desert Land</h3>
+      <p>Go where you feel most alive with endless sand.</p></a>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Review Section -->
+ <section id="reviews" class="section" style="padding: 40px; text-align: center; background-color: #c6ebf7;">
+  <h2 style="font-family: broadway; font-size: xx-large; color: #333; margin-bottom: 30px; ">Customer Reviews</h2>
+  <div class="reviews">
+      <!-- Individual Review Cards -->
+      <div class="review" style="padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: left; background-color: #caba80;">
+          <h3 style="font-size: 1.2rem; margin-bottom: 15px;">Anna</h3>
+          <p style="color: #333; font-size: 1rem; line-height: 1.5;">"Arunachalam most visited temple in Tamil Nadu such beautiful architecture, very powerful and famous Lord Shiva temple. This temple is one of the Panchabhuta temples."</p>
+      </div>
+
+      <div class="review" style="padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: left; background-color: hsl(203, 30%, 59%);">
+          <h3 style="font-size: 1.2rem; margin-bottom: 15px;">John</h3>
+          <p style="color: #333; font-size: 1rem; line-height: 1.5;">“Manali is the best tourist attraction of all time. The best time to visit Manali is Oct to Feb to see the snowfall and the beauty of nature. Though I visited in May, it was still as beautiful as in October.”</p>
+      </div>
+
+      <div class="review" style="padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: left; background-color:#77bb96">
+          <h3 style="font-size: 1.2rem; margin-bottom: 15px;">Rahul</h3>
+          <p style="color: #333; font-size: 1rem; line-height: 1.5;">“Goa beach is simply stunning! From the moment I arrived, I was captivated by the soft golden sands and crystal-clear waters. The atmosphere is incredibly vibrant, with friendly locals, delicious food, and more.”</p>
+      </div>
+
+      <div class="review" style="padding: 20px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: left; background-color: #5893a6;">
+          <h3 style="font-size: 1.2rem; margin-bottom: 15px;">Robert</h3>
+          <p style="color: #333; font-size: 1rem; line-height: 1.5;">If you’re a lover of all things paranormal, the Bhangarh Fort will leave you elated. If you’re not, you can still enjoy the climb & walk through, and listen to the haunted stories. The Bhangarh Fort exemplifies traditional town planning.</p>
+      </div>
+  </div>
+</section>
+</p>
+</body>
+</html>
+
+<!-- Media Section (Optional) -->
+<section class="section" style="text-align: center; padding: 20px;">
+  <h2 style="font-family:broadway; font-size: xx-large; color: rgb(13, 76, 13); text-decoration: underline;">Travel Highlights</h2><br>
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <video controls style="height: 300px; max-width: 30%;" autoplay>
+      <source src="media/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls style="height: 300px; max-width: 30%;" autoplay>
+      <source src="media/video2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls style="height: 300px; max-width: 30%;" autoplay>
+      <source src="media/video3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls style="height: 300px; max-width: 30%;" autoplay>
+      <source src="media/video4.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls style="height: 300px; max-width: 30%;" autoplay>
+      <source src="media/video5.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls style="height: 300px; max-width: 30%;" autoplay>
+      <source src="media/video7.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+            
+   <!-- Single Section with Background -->
+<section style="position: relative; background-image: url('images/paris.jpeg'); width: 100%; background-size: cover; background-position: center; padding: 40px; background-attachment: fixed;">
+  <!-- Semi-transparent overlay -->
+  <div style="content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
+  
+  <!-- Content Section -->
+  <div style="position: relative; z-index: 2; color: white; text-align: center;">
+    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: xx-large;">
+      Leave a Review
+    </h2>
+    <h3 style="padding: 10px; font-family: cursive; font-size: x-large;">
+      Your feedback matters to us!
+    </h3>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your Name" required style="width: 100%; padding: 0.8rem; margin-bottom: 1rem; border-radius: 5px;">
+      <label for="message">Review:</label>
+      <textarea id="message" rows="4" placeholder="Your Review" required style="width: 100%; padding: 0.8rem; margin-bottom: 1rem; border-radius: 5px;"></textarea>
+      <button type="submit" style="background-color: #333; color: white; padding: 0.8rem 1rem; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
+    </form>
+
+    <!-- Contact Section Inside the Same Background -->
+    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: xx-large; margin-top: 40px;">
+      Contact Me
+    </h2>
+    <form style="max-width: 600px; margin: 0 auto; background-color: rgba(255, 255, 255, 0.8); padding: 40px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+      <label for="email" style="color: black; font-size: larger;">Email:</label>
+      <input type="email" id="email" placeholder="Your Email" required style="width: 100%; padding: 0.8rem; margin-bottom: 1rem; border-radius: 5px;">
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Your Message" required style="width: 100%; padding: 0.8rem; margin-bottom: 1rem; border-radius: 5px;"></textarea>
+      <button type="submit" style="background-color: #333; color: white; padding: 0.8rem 1rem; border: none; border-radius: 5px; cursor: pointer;">Send</button>
+    </form>
+  </div>
+</section>
+
+
+
+<!-- footer -->
+<footer style="background-color: #333; color: #fff; padding: 20px 0; text-align: center;">
+  <!-- Social Media Links -->
+  <div>
+    <h3>Follow Us</h3>
+    <ul style="list-style: none; padding: 0;">
+      <li style="display: inline; margin: 0 10px;">
+        <a href="https://www.facebook.com/fakeprofile" style="color: #fff; text-decoration: none;">Facebook</a>
+      </li>
+      <li style="display: inline; margin: 0 10px;">
+        <a href="https://www.twitter.com/fakeprofile" style="color: #fff; text-decoration: none;">Twitter</a>
+      </li>
+      <li style="display: inline; margin: 0 10px;">
+        <a href="https://www.instagram.com/fakeprofile" style="color: #fff; text-decoration: none;">Instagram</a>
+      </li>
+      <li style="display: inline; margin: 0 10px;">
+        <a href="https://www.linkedin.com/in/fakeprofile" style="color: #fff; text-decoration: none;">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Contact Information -->
+  <div style="margin-top: 20px;">
+    <p>Contact us: <a href="mailto:info@yourcompany.com" style="color: #fff;">info@exploreease.com</a></p>
+    <p>Phone: (123) 456-7890</p>
+  </div>
+
+  <!-- Copyright Information -->
+  <div style="margin-top: 20px;">
+    <p>&copy; 2024 Your Company. All rights reserved.
+      <a href="sample">Copyrights</a>
+    </p>
+  </div>
+</footer>
+</footer>
+
+<!-- Add FontAwesome for Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

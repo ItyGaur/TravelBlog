@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up</title>
+    <link rel="stylesheet" href="logincss.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container login-container">
+            <form>
+                <h1 style=" font-family: cursive;">WELCOME BACK</h1>
+                <input type="text" placeholder="Name" required />
+                <input type="password" placeholder="Password" required />
+                <button>Sign In</button>
+                <p>Not registered yet? <span id="showSignUp">Sign Up</span></p>
+            </form>
+        </div>
+
+        <div class="form-container signup-container">
+            <form>
+                <h1 style="font-family: cursive;">Join Us</h1>
+                <input type="text" placeholder="Name" required />
+                <input type="email" placeholder="Email" required />
+                <input type="password" placeholder="Password" required />
+                <button>Sign Up</button>
+                <p>Already registered? <span id="showLogin">Sign In</span></p>
+            </form>
+        </div>
+
+        <div class="overlay">
+            <div class="overlay-panel">
+                <h1>ExploreEase</h1>
+                <p>Discover, explore, and share your experiences!</p>
+            </div>
+        </div>
+    </div>
+    <script src="loginjs.js"></script>
+</body>
+</html>
